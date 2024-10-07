@@ -1,0 +1,70 @@
+.membership-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(237, 219, 254); /* Optional background color for better visibility */
+    border-radius: 8px; /* Add rounded corners for better appearance */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.membership-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.membership-container p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666; /* Slightly lighter text color for paragraphs */
+}
+
+.membership-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.membership-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    /* color: #333; */
+}
+
+.membership-form input,
+.membership-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.membership-options {
+    display: flex; /* Flexbox for row alignment */
+     /* Space between radio buttons */
+    
+}
+
+.membership-options label {
+    display: inline; /* Keep the label inline with the radio button */
+    margin-left: 5px;
+    gap: 1px; /* Add space between radio and text */
+}
+
+.submit-btn {
+    padding: 12px 25px; /* Slightly bigger button for better UX */
+    font-size: 16px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.submit-btn:hover {
+    background-color: #9388e4;
+}
